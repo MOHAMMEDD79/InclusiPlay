@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="About.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DataBase\Insert.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DataBase\Search.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DataBase\Updat.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="loogin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Manger.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Mix.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Sug.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="About.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataBase\Insert.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataBase\Search.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataBase\Updat.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="loogin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Manger.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Mix.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Sug.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="DALL_E_2024-01-04_09.30.07_-_A_colorful_and_vibrant_logo_for__InclusiPlay___an_interactive_educational_game_for_children_ages_5-13_with_diverse_abilities._The_logo_should_include_-removebg-preview.png" />
+    <None Remove="kids.jpg" />
+    <None Remove="logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Gaming\" />
+    <Folder Include="Lessons\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="DALL_E_2024-01-04_09.30.07_-_A_colorful_and_vibrant_logo_for__InclusiPlay___an_interactive_educational_game_for_children_ages_5-13_with_diverse_abilities._The_logo_should_include_-removebg-preview.png" />
+    <Resource Include="kids.jpg" />
+    <Resource Include="logo.png" />
+  </ItemGroup>
+
+</Project>

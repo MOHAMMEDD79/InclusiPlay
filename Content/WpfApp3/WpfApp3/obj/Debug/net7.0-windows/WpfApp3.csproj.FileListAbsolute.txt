@@ -1,0 +1,86 @@
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\bin\Debug\net7.0-windows\WpfApp3.exe
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\bin\Debug\net7.0-windows\WpfApp3.deps.json
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\bin\Debug\net7.0-windows\WpfApp3.runtimeconfig.json
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\bin\Debug\net7.0-windows\WpfApp3.dll
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\bin\Debug\net7.0-windows\WpfApp3.pdb
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\WpfApp3.csproj.AssemblyReference.cache
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\WpfApp3_MarkupCompile.cache
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\WpfApp3_MarkupCompile.lref
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\WpfApp3.g.resources
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\WpfApp3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\WpfApp3.AssemblyInfoInputs.cache
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\WpfApp3.AssemblyInfo.cs
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\WpfApp3.csproj.CoreCompileInputs.cache
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\WpfApp3.dll
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\refint\WpfApp3.dll
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\WpfApp3.pdb
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\WpfApp3.genruntimeconfig.cache
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\ref\WpfApp3.dll
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Math.g.cs
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Math.baml
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Islam.g.cs
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Islam.baml
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Chemistry.g.cs
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Chemistry.baml
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Engineering.g.cs
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Engineering.baml
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\History.g.cs
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\History.baml
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Geography.g.cs
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Geography.baml
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Biology.g.cs
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Physics.g.cs
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Biology.baml
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Physics.baml
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Galaxies science.g.cs
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Galaxies science.baml
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\loogin.g.cs
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\loogin.baml
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Test.g.cs
+C:\Users\Death\source\repos\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Test.baml
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\bin\Debug\net7.0-windows\WpfApp3.exe
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\bin\Debug\net7.0-windows\WpfApp3.deps.json
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\bin\Debug\net7.0-windows\WpfApp3.runtimeconfig.json
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\bin\Debug\net7.0-windows\WpfApp3.dll
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\bin\Debug\net7.0-windows\WpfApp3.pdb
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\WpfApp3.csproj.AssemblyReference.cache
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Biology.g.cs
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Chemistry.g.cs
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Engineering.g.cs
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Galaxies science.g.cs
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Geography.g.cs
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\History.g.cs
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Islam.g.cs
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\loogin.g.cs
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\MainWindow.g.cs
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Math.g.cs
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Physics.g.cs
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Test.g.cs
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\App.g.cs
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\WpfApp3_MarkupCompile.cache
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\WpfApp3_MarkupCompile.lref
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Biology.baml
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Chemistry.baml
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Engineering.baml
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Galaxies science.baml
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Geography.baml
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\History.baml
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Islam.baml
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\loogin.baml
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\MainWindow.baml
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Math.baml
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Physics.baml
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\Test.baml
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\WpfApp3.g.resources
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\WpfApp3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\WpfApp3.AssemblyInfoInputs.cache
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\WpfApp3.AssemblyInfo.cs
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\WpfApp3.csproj.CoreCompileInputs.cache
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\WpfApp3.dll
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\refint\WpfApp3.dll
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\WpfApp3.pdb
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\WpfApp3.genruntimeconfig.cache
+D:\Study\ريادة وابداع\InclusiPlay\Content\WpfApp3\WpfApp3\obj\Debug\net7.0-windows\ref\WpfApp3.dll

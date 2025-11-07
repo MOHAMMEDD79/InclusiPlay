@@ -1,0 +1,49 @@
+﻿<Window x:Class="InclusiPlay.Manger"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InclusiPlay"
+        mc:Ignorable="d"
+        Title="Manger" Height="450" Width="800">
+    <Grid Background="#333333">
+        <!-- Dark Gray background -->
+        <StackPanel>
+            <DataGrid x:Name="data_gg" Margin="0,0,0,10" Background="#444444">
+                <!-- Gray background -->
+                <DataGrid.ColumnHeaderStyle>
+                    <Style TargetType="DataGridColumnHeader">
+                        <Setter Property="Background" Value="#555555"/>
+                        <!-- Darker Gray background for column headers -->
+                        <Setter Property="Foreground" Value="White"/>
+                        <!-- White text color for column headers -->
+                        <Setter Property="BorderBrush" Value="#555555"/>
+                        <!-- Border color for column headers -->
+                    </Style>
+                </DataGrid.ColumnHeaderStyle>
+            </DataGrid>
+            <StackPanel Orientation="Horizontal" RenderTransformOrigin="0.5,0.5">
+                <StackPanel.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="169" Y="93"/>
+                    </TransformGroup>
+                </StackPanel.RenderTransform>
+                <Button x:Name="creat" Content="Insert" Margin="0,0,10,0" Click="creat_Click" Background="#FF31FF00" Height="44" Width="73" FontSize="14" FontFamily="Arial Black"/>
+                <!-- Goldenrod background -->
+                <!-- Olive Green background -->
+                <Button x:Name="delete" Content="Delete" Margin="0,0,10,0" Click="delete_Click" Background="Red" Width="61" Foreground="White" FontSize="14" FontFamily="Arial Black"/>
+                <!-- Light Coral background -->
+                <Button x:Name="search" Content="Search" Margin="0,0,10,0" Click="search_Click" Background="#FF00F6FF" Width="61" FontSize="14" FontFamily="Arial Black"/>
+                <!-- Slate Blue background -->
+                <Button x:Name="updat" Content="Update" Margin="0,0,10,0" Click="updat_Click" Background="#FFFFD700" Width="64" FontSize="14" FontFamily="Arial Black"/>
+                <!-- Gold background -->
+                <Button x:Name="ref" Content="Refresh" Margin="0,0,10,0" Click="ref_Click" Background="#FF8400FF" Width="71" Foreground="White" FontSize="14" FontFamily="Arial Black"/>
+                <!-- Blue Violet background -->
+                <Button x:Name="exit" Content="Exit" Margin="0,0,10,0" Click="exit_Click" Background="#FFF60505" Width="48" FontSize="14" FontFamily="Arial Black"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

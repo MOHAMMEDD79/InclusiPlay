@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="file-20200930-20-13dd36f.jpg" />
+    <None Remove="mole.png" />
+    <None Remove="vg-1.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="file-20200930-20-13dd36f.jpg" />
+    <Resource Include="mole.png" />
+    <Resource Include="vg-1.jpg" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,24 @@
+D:\Study\ريادة وابداع\InclusiPlay\Content\Voice Test\Voice Test\bin\Debug\net7.0-windows\Voice Test.exe
+D:\Study\ريادة وابداع\InclusiPlay\Content\Voice Test\Voice Test\bin\Debug\net7.0-windows\Voice Test.deps.json
+D:\Study\ريادة وابداع\InclusiPlay\Content\Voice Test\Voice Test\bin\Debug\net7.0-windows\Voice Test.runtimeconfig.json
+D:\Study\ريادة وابداع\InclusiPlay\Content\Voice Test\Voice Test\bin\Debug\net7.0-windows\Voice Test.dll
+D:\Study\ريادة وابداع\InclusiPlay\Content\Voice Test\Voice Test\bin\Debug\net7.0-windows\Voice Test.pdb
+D:\Study\ريادة وابداع\InclusiPlay\Content\Voice Test\Voice Test\bin\Debug\net7.0-windows\System.Speech.dll
+D:\Study\ريادة وابداع\InclusiPlay\Content\Voice Test\Voice Test\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Speech.dll
+D:\Study\ريادة وابداع\InclusiPlay\Content\Voice Test\Voice Test\obj\Debug\net7.0-windows\Voice Test.csproj.AssemblyReference.cache
+D:\Study\ريادة وابداع\InclusiPlay\Content\Voice Test\Voice Test\obj\Debug\net7.0-windows\MainWindow.g.cs
+D:\Study\ريادة وابداع\InclusiPlay\Content\Voice Test\Voice Test\obj\Debug\net7.0-windows\App.g.cs
+D:\Study\ريادة وابداع\InclusiPlay\Content\Voice Test\Voice Test\obj\Debug\net7.0-windows\Voice Test_MarkupCompile.cache
+D:\Study\ريادة وابداع\InclusiPlay\Content\Voice Test\Voice Test\obj\Debug\net7.0-windows\Voice Test_MarkupCompile.lref
+D:\Study\ريادة وابداع\InclusiPlay\Content\Voice Test\Voice Test\obj\Debug\net7.0-windows\MainWindow.baml
+D:\Study\ريادة وابداع\InclusiPlay\Content\Voice Test\Voice Test\obj\Debug\net7.0-windows\Voice Test.g.resources
+D:\Study\ريادة وابداع\InclusiPlay\Content\Voice Test\Voice Test\obj\Debug\net7.0-windows\Voice Test.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\ريادة وابداع\InclusiPlay\Content\Voice Test\Voice Test\obj\Debug\net7.0-windows\Voice Test.AssemblyInfoInputs.cache
+D:\Study\ريادة وابداع\InclusiPlay\Content\Voice Test\Voice Test\obj\Debug\net7.0-windows\Voice Test.AssemblyInfo.cs
+D:\Study\ريادة وابداع\InclusiPlay\Content\Voice Test\Voice Test\obj\Debug\net7.0-windows\Voice Test.csproj.CoreCompileInputs.cache
+D:\Study\ريادة وابداع\InclusiPlay\Content\Voice Test\Voice Test\obj\Debug\net7.0-windows\Voice Test.csproj.CopyComplete
+D:\Study\ريادة وابداع\InclusiPlay\Content\Voice Test\Voice Test\obj\Debug\net7.0-windows\Voice Test.dll
+D:\Study\ريادة وابداع\InclusiPlay\Content\Voice Test\Voice Test\obj\Debug\net7.0-windows\refint\Voice Test.dll
+D:\Study\ريادة وابداع\InclusiPlay\Content\Voice Test\Voice Test\obj\Debug\net7.0-windows\Voice Test.pdb
+D:\Study\ريادة وابداع\InclusiPlay\Content\Voice Test\Voice Test\obj\Debug\net7.0-windows\Voice Test.genruntimeconfig.cache
+D:\Study\ريادة وابداع\InclusiPlay\Content\Voice Test\Voice Test\obj\Debug\net7.0-windows\ref\Voice Test.dll

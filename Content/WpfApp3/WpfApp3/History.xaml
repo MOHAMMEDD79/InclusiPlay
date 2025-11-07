@@ -1,0 +1,165 @@
+﻿<Window x:Class="WpfApp3.History"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+     Title="History" Height="1722" Width="800">
+    <Window.Resources>
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
+        <ControlTemplate x:Key="RoundedButtonStyle" TargetType="{x:Type ButtonBase}">
+            <Border x:Name="border" CornerRadius="20" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="true" Margin="0,0,-29,0">
+                <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="Background" TargetName="border" Value="#EAB01E"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="#EAB01E"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="true">
+                    <Setter Property="Background" TargetName="border" Value="#F1CA68"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="#F1CA68"/>
+                </Trigger>
+                <Trigger Property="IsEnabled" Value="false">
+                    <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                    <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+    </Window.Resources>
+    <Window.Background>
+        <ImageBrush/>
+    </Window.Background>
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="0,0,0,0" Background="#FFE6E9CB">
+            <StackPanel Background="#FFE6E9CB">
+                <!-- Question 1 -->
+                <TextBlock  x:Name="QuestionTextBlock1" Text="1. 12 * 3 - 4 / 2 =" Margin="10" FontFamily="Arial" FontSize="20"/>
+                <StackPanel x:Name="Question1Options" Margin="20">
+                    <RadioButton x:Name="OptionA1" Content="A. 32" GroupName="Group1" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionB1" Content="B. 34" GroupName="Group1" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionC1" Content="C. 36" GroupName="Group1" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionD1" Content="D. 38" GroupName="Group1" FontSize="14" FontFamily="Book Antiqua"/>
+                </StackPanel>
+
+                <!-- Question 2 -->
+                <TextBlock  x:Name="QuestionTextBlock2" Text="2. Evaluate: √(16) + 2^3 =" Margin="10" FontSize="20" FontFamily="Arial"/>
+                <StackPanel x:Name="Question2Options" Margin="20">
+                    <RadioButton x:Name="OptionA2" Content="A. 12" GroupName="Group2" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionB2" Content="B. 14" GroupName="Group2" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionC2" Content="C. 16" GroupName="Group2" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionD2" Content="D. 18" GroupName="Group2" FontSize="14" FontFamily="Book Antiqua"/>
+                </StackPanel>
+
+                <!-- Question 3 -->
+                <TextBlock  x:Name="QuestionTextBlock3" Text="3. Solve for x: 2x + 5 = 17" Margin="10" FontSize="20" FontFamily="Arial"/>
+                <StackPanel x:Name="Question3Options" Margin="20">
+                    <RadioButton x:Name="OptionA3" Content="A. 6" GroupName="Group3" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionB3" Content="B. 7" GroupName="Group3" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionC3" Content="C. 8" GroupName="Group3" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionD3" Content="D. 9" GroupName="Group3" FontSize="14" FontFamily="Book Antiqua"/>
+                </StackPanel>
+
+                <!-- Question 4 -->
+                <TextBlock  x:Name="QuestionTextBlock4" Text="4. Find the value of: sin(30°) + cos(60°)" Margin="10" FontSize="20" FontFamily="Arial"/>
+                <StackPanel x:Name="Question4Options" Margin="20">
+                    <RadioButton x:Name="OptionA4" Content="A. √3/2" GroupName="Group4" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionB4" Content="B. 1" GroupName="Group4" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionC4" Content="C. 3/2" GroupName="Group4" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionD4" Content="D. 1/2" GroupName="Group4" FontSize="14" FontFamily="Book Antiqua"/>
+                </StackPanel>
+
+                <!-- Question 5 -->
+                <TextBlock  x:Name="QuestionTextBlock5" Text="5. If a = 4 and b = 7, what is the value of a² + b²?" Margin="10" FontSize="20" FontFamily="Arial"/>
+                <StackPanel x:Name="Question5Options" Margin="20">
+                    <RadioButton x:Name="OptionA5" Content="A. 45" GroupName="Group5" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionB5" Content="B. 53" GroupName="Group5" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionC5" Content="C. 65" GroupName="Group5" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionD5" Content="D. 55" GroupName="Group5" FontSize="14" FontFamily="Book Antiqua"/>
+                </StackPanel>
+
+                <!-- Question 6 -->
+                <TextBlock  x:Name="QuestionTextBlock6" Text="6. Solve the equation: 2^(x-1) = 8" Margin="10" FontSize="20" FontFamily="Arial"/>
+                <StackPanel x:Name="Question6Options" Margin="20">
+                    <RadioButton x:Name="OptionA6" Content="A. 2" GroupName="Group6" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionB6" Content="B. 3" GroupName="Group6" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionC6" Content="C. 4" GroupName="Group6" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionD6" Content="D. 5" GroupName="Group6" FontSize="14" FontFamily="Book Antiqua"/>
+                </StackPanel>
+                <!-- Question 7 -->
+                <TextBlock  x:Name="QuestionTextBlock7" Text="7. Evaluate: log₂(16) + √(9) =" Margin="10" FontSize="20" FontFamily="Arial"/>
+                <StackPanel x:Name="Question7Options" Margin="20">
+                    <RadioButton x:Name="OptionA7" Content="A. 8" GroupName="Group7" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionB7" Content="B. 10" GroupName="Group7" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionC7" Content="C. 12" GroupName="Group7" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionD7" Content="D. 7" GroupName="Group7" FontSize="14" FontFamily="Book Antiqua"/>
+                </StackPanel>
+
+                <!-- Question 8 -->
+                <TextBlock  x:Name="QuestionTextBlock8" Text="8. If a triangle has angles of 60°, 70°, and 50°, what type of triangle is it?" Margin="10" FontSize="20" FontFamily="Arial"/>
+                <StackPanel x:Name="Question8Options" Margin="20">
+                    <RadioButton x:Name="OptionA8" Content="A. Equilateral" GroupName="Group8" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionB8" Content="B. Isosceles" GroupName="Group8" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionC8" Content="C. Scalene" GroupName="Group8" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionD8" Content="D. Right-angled" GroupName="Group8" FontSize="14" FontFamily="Book Antiqua"/>
+                </StackPanel>
+
+                <!-- Question 9 -->
+                <TextBlock  x:Name="QuestionTextBlock9" Text="9. Solve for x: cos(x) = 0.5" Margin="10" FontSize="20" FontFamily="Arial"/>
+                <StackPanel x:Name="Question9Options" Margin="20">
+                    <RadioButton x:Name="OptionA9" Content="A. π/3" GroupName="Group9" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionB9" Content="B. π/4" GroupName="Group9" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionC9" Content="C. π/6" GroupName="Group9" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionD9" Content="D. π/2" GroupName="Group9" FontSize="14" FontFamily="Book Antiqua"/>
+                </StackPanel>
+
+                <!-- Question 10 -->
+                <TextBlock  x:Name="QuestionTextBlock10" Text="10. If f(x) = 2x² + 3x - 5, what is f'(x)?" Margin="10" FontSize="20" FontFamily="Arial"/>
+                <StackPanel x:Name="Question10Options" Margin="20">
+                    <RadioButton x:Name="OptionA10" Content="A. 4x + 3" GroupName="Group10" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionB10" Content="B. 2x + 3" GroupName="Group10" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionC10" Content="C. 4x - 3" GroupName="Group10" FontSize="14" FontFamily="Book Antiqua"/>
+                    <RadioButton x:Name="OptionD10" Content="D. 2x - 3" GroupName="Group10" FontSize="14" FontFamily="Book Antiqua"/>
+                </StackPanel>
+
+
+            </StackPanel>
+
+
+            <Button Template="{DynamicResource RoundedButtonStyle}" Content="Submit"
+                    Click="SubmitButton_Click" Margin="10" BorderBrush="Black" BorderThickness="1"
+                    Foreground="White" FontSize="16" FontWeight="Bold"
+                    Width="100" Height="40" HorizontalAlignment="Center">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Background">
+                            <Setter.Value>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="Black"/>
+                                    <GradientStop Color="#FFF30000" Offset="1"/>
+                                    <GradientStop Color="#FF072586" Offset="0.131"/>
+                                </LinearGradientBrush>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Property="BorderBrush" Value="Black"/>
+                        <Setter Property="BorderThickness" Value="1"/>
+                    </Style>
+                </Button.Style>
+                <Button.Effect>
+                    <DropShadowEffect Color="Black" ShadowDepth="2" BlurRadius="4"/>
+                </Button.Effect>
+            </Button>
+
+            <TextBlock x:Name="ResultText" Text="" Foreground="Red" FontWeight="Bold" Margin="10"/>
+        </StackPanel>
+    </ScrollViewer>
+</Window>

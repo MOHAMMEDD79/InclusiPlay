@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="35052389e171f0d2a1dd8c8f7543de7b.jpg" />
+    <None Remove="3b23b533-c408-4380-bce6-0820b89131e9_math-on-board.jpeg" />
+    <None Remove="adventure-ancient-antique-697662.x88fbe810.jpg" />
+    <None Remove="b2ap3_large_quran_peace.jpg" />
+    <None Remove="chemistry-beakers_27c5571306.jpg" />
+    <None Remove="engineering_1-300x197.png" />
+    <None Remove="kids.jpg" />
+    <None Remove="logo.png" />
+    <None Remove="math.jpeg" />
+    <None Remove="mkk.jpeg" />
+    <None Remove="physics.2e16d0ba.fill-10000x10000.jpg" />
+    <None Remove="Untitled-design-81.png" />
+    <None Remove="What-is-Medical-Biology-Bolton-Uni__ResizedImageWzYwMCwzMzhd.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="35052389e171f0d2a1dd8c8f7543de7b.jpg" />
+    <Resource Include="3b23b533-c408-4380-bce6-0820b89131e9_math-on-board.jpeg" />
+    <Resource Include="adventure-ancient-antique-697662.x88fbe810.jpg" />
+    <Resource Include="b2ap3_large_quran_peace.jpg" />
+    <Resource Include="chemistry-beakers_27c5571306.jpg" />
+    <Resource Include="engineering_1-300x197.png" />
+    <Resource Include="kids.jpg" />
+    <Resource Include="logo.png" />
+    <Resource Include="math.jpeg" />
+    <Resource Include="mkk.jpeg" />
+    <Resource Include="physics.2e16d0ba.fill-10000x10000.jpg" />
+    <Resource Include="Untitled-design-81.png" />
+    <Resource Include="What-is-Medical-Biology-Bolton-Uni__ResizedImageWzYwMCwzMzhd.jpg" />
+  </ItemGroup>
+
+</Project>

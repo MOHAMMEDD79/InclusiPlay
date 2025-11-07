@@ -1,0 +1,21 @@
+﻿<Window x:Class="InclusiPlay.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InclusiPlay"
+        mc:Ignorable="d"
+        Title="About" Height="540" Width="800">
+    <Grid>
+        <TextBlock TextWrapping="Wrap" FontSize="24">
+            This program is an educational system for young people in all fields such as Programming and History and Games<LineBreak/><LineBreak/>
+
+
+
+
+
+We are a group of students who created this program in the Leadership and creativity course at Palestine Ahliya University under the supervision of:<LineBreak/><LineBreak/> Dr. Ahmad Abdou.<LineBreak/><LineBreak/>Mohammed Jamel<LineBreak/>Alaa Mohammed<LineBreak/>Mahdi Ahmad<LineBreak/> Yazan Alazzah<LineBreak/>Atef Salahat<LineBreak/> Joseph Waleed<LineBreak/>
+<LineBreak/>©2024 PAU
+        </TextBlock>
+    </Grid>
+</Window>

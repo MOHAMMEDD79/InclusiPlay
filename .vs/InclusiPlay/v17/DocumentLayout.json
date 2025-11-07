@@ -1,0 +1,238 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|d:\\study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\inclusiplay\\inclusiplay\\database\\updat.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|solutionrelative:inclusiplay\\database\\updat.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|d:\\study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\inclusiplay\\inclusiplay\\sug.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|solutionrelative:inclusiplay\\sug.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|d:\\study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\inclusiplay\\inclusiplay\\database\\insert.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|solutionrelative:inclusiplay\\database\\insert.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|d:\\study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\inclusiplay\\inclusiplay\\database\\insert.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|solutionrelative:inclusiplay\\database\\insert.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|d:\\study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\inclusiplay\\inclusiplay\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|solutionrelative:inclusiplay\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|d:\\study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\inclusiplay\\inclusiplay\\loogin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|solutionrelative:inclusiplay\\loogin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|d:\\study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\inclusiplay\\inclusiplay\\database\\search.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|solutionrelative:inclusiplay\\database\\search.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|d:\\study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\inclusiplay\\inclusiplay\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|solutionrelative:inclusiplay\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|d:\\study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\inclusiplay\\inclusiplay\\mix.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|solutionrelative:inclusiplay\\mix.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|d:\\study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\inclusiplay\\inclusiplay\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|solutionrelative:inclusiplay\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|d:\\study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\inclusiplay\\inclusiplay\\mix.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|solutionrelative:inclusiplay\\mix.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Death\\Desktop\\kids\\html.rometheme.pro\\kids\\js\\googlemap-setting.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|d:\\study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\inclusiplay\\inclusiplay\\loogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|solutionrelative:inclusiplay\\loogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|d:\\study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\inclusiplay\\inclusiplay\\about.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB98FE4F-E58B-48F2-96F8-B0939049D30D}|InclusiPlay\\InclusiPlay.csproj|solutionrelative:inclusiplay\\about.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 294,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sug.xaml.cs",
+              "DocumentMoniker": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\Sug.xaml.cs",
+              "RelativeDocumentMoniker": "InclusiPlay\\Sug.xaml.cs",
+              "ToolTip": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\Sug.xaml.cs",
+              "RelativeToolTip": "InclusiPlay\\Sug.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T00:33:55.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Insert.xaml",
+              "DocumentMoniker": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\DataBase\\Insert.xaml",
+              "RelativeDocumentMoniker": "InclusiPlay\\DataBase\\Insert.xaml",
+              "ToolTip": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\DataBase\\Insert.xaml",
+              "RelativeToolTip": "InclusiPlay\\DataBase\\Insert.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-28T00:15:34.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "loogin.xaml.cs",
+              "DocumentMoniker": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\loogin.xaml.cs",
+              "RelativeDocumentMoniker": "InclusiPlay\\loogin.xaml.cs",
+              "ToolTip": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\loogin.xaml.cs",
+              "RelativeToolTip": "InclusiPlay\\loogin.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAADwvzAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-04T09:10:50.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Mix.xaml.cs",
+              "DocumentMoniker": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\Mix.xaml.cs",
+              "RelativeDocumentMoniker": "InclusiPlay\\Mix.xaml.cs",
+              "ToolTip": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\Mix.xaml.cs",
+              "RelativeToolTip": "InclusiPlay\\Mix.xaml.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAwwMkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-04T01:01:38.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Updat.xaml.cs",
+              "DocumentMoniker": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\DataBase\\Updat.xaml.cs",
+              "RelativeDocumentMoniker": "InclusiPlay\\DataBase\\Updat.xaml.cs",
+              "ToolTip": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\DataBase\\Updat.xaml.cs",
+              "RelativeToolTip": "InclusiPlay\\DataBase\\Updat.xaml.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAkwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-22T15:35:20.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Insert.xaml.cs",
+              "DocumentMoniker": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\DataBase\\Insert.xaml.cs",
+              "RelativeDocumentMoniker": "InclusiPlay\\DataBase\\Insert.xaml.cs",
+              "ToolTip": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\DataBase\\Insert.xaml.cs",
+              "RelativeToolTip": "InclusiPlay\\DataBase\\Insert.xaml.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAhwBkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T00:15:38.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "InclusiPlay\\MainWindow.xaml",
+              "ToolTip": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\MainWindow.xaml",
+              "RelativeToolTip": "InclusiPlay\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-01-04T09:11:54.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "loogin.xaml",
+              "DocumentMoniker": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\loogin.xaml",
+              "RelativeDocumentMoniker": "InclusiPlay\\loogin.xaml",
+              "ToolTip": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\loogin.xaml",
+              "RelativeToolTip": "InclusiPlay\\loogin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-01-04T01:03:30.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\Connection.cs",
+              "RelativeDocumentMoniker": "InclusiPlay\\Connection.cs",
+              "ToolTip": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\Connection.cs",
+              "RelativeToolTip": "InclusiPlay\\Connection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T17:03:03.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Search.xaml.cs",
+              "DocumentMoniker": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\DataBase\\Search.xaml.cs",
+              "RelativeDocumentMoniker": "InclusiPlay\\DataBase\\Search.xaml.cs",
+              "ToolTip": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\DataBase\\Search.xaml.cs",
+              "RelativeToolTip": "InclusiPlay\\DataBase\\Search.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T00:15:50.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "googlemap-setting.js",
+              "DocumentMoniker": "C:\\Users\\Death\\Desktop\\kids\\html.rometheme.pro\\kids\\js\\googlemap-setting.js",
+              "ToolTip": "C:\\Users\\Death\\Desktop\\kids\\html.rometheme.pro\\kids\\js\\googlemap-setting.js",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-01-07T07:24:33.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Mix.xaml",
+              "DocumentMoniker": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\Mix.xaml",
+              "RelativeDocumentMoniker": "InclusiPlay\\Mix.xaml",
+              "ToolTip": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\Mix.xaml",
+              "RelativeToolTip": "InclusiPlay\\Mix.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-01-08T10:42:32.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "InclusiPlay\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\MainWindow.xaml.cs",
+              "RelativeToolTip": "InclusiPlay\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAuwFoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-04T09:07:49.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "About.xaml",
+              "DocumentMoniker": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\About.xaml",
+              "RelativeDocumentMoniker": "InclusiPlay\\About.xaml",
+              "ToolTip": "D:\\Study\\\u0631\u064A\u0627\u062F\u0629 \u0648\u0627\u0628\u062F\u0627\u0639\\InclusiPlay\\InclusiPlay\\About.xaml",
+              "RelativeToolTip": "InclusiPlay\\About.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-01-07T05:08:33.081Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

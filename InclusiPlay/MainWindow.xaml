@@ -1,0 +1,367 @@
+﻿<Window x:Class="InclusiPlay.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InclusiPlay"
+        mc:Ignorable="d"
+    
+        Title="MainWindow" Height="1080" Width="1360" >
+
+    <Window.Resources>
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="Red"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
+
+        <ControlTemplate x:Key="RYellow" TargetType="{x:Type ButtonBase}">
+            <Border x:Name="border" CornerRadius="40" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="true" Margin="0,0,-29,0">
+                <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="Background" TargetName="border" Value="#FFC436"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="#FFC436"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="true">
+                    <Setter Property="Background" TargetName="border" Value="#FFC436"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="#FFC436"/>
+                </Trigger>
+                <Trigger Property="IsEnabled" Value="false">
+                    <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                    <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+        <ControlTemplate x:Key="RP" TargetType="{x:Type ButtonBase}">
+            <Border x:Name="border" CornerRadius="40" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="true" Margin="0,0,-29,0">
+                <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="Background" TargetName="border" Value="#7743DB"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="#7743DB"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="true">
+                    <Setter Property="Background" TargetName="border" Value="#7743DB"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="#7743DB"/>
+                </Trigger>
+                <Trigger Property="IsEnabled" Value="false">
+                    <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                    <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+        <ControlTemplate x:Key="RR" TargetType="{x:Type ButtonBase}">
+            <Border x:Name="border" CornerRadius="40" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="true" Margin="0,0,-29,0">
+                <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="Background" TargetName="border" Value="#FF2D00"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="#FF2D00"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="true">
+                    <Setter Property="Background" TargetName="border" Value="#FF2D00"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="#FF2D00"/>
+                </Trigger>
+                <Trigger Property="IsEnabled" Value="false">
+                    <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                    <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+        <ControlTemplate x:Key="RG" TargetType="{x:Type ButtonBase}">
+            <Border x:Name="border" CornerRadius="40" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="true" Margin="0,0,-29,0">
+                <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="Background" TargetName="border" Value="#009629"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="#009629"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="true">
+                    <Setter Property="Background" TargetName="border" Value="#009629"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="#009629"/>
+                </Trigger>
+                <Trigger Property="IsEnabled" Value="false">
+                    <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                    <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+        <ControlTemplate x:Key="RPP" TargetType="{x:Type ButtonBase}">
+            <Border x:Name="border" CornerRadius="40" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="true" Margin="0,0,-29,0">
+                <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="Background" TargetName="border" Value="#FF90F7"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="#FF90F7"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="true">
+                    <Setter Property="Background" TargetName="border" Value="#FF90F7"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="#FF90F7"/>
+                </Trigger>
+                <Trigger Property="IsEnabled" Value="false">
+                    <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                    <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+        <ControlTemplate x:Key="RDB" TargetType="{x:Type ButtonBase}">
+            <Border x:Name="border" CornerRadius="40" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="true" Margin="0,0,-29,0">
+                <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="Background" TargetName="border" Value="#1A00D6"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="#1A00D6"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="true">
+                    <Setter Property="Background" TargetName="border" Value="#1A00D6"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="#1A00D6"/>
+                </Trigger>
+                <Trigger Property="IsEnabled" Value="false">
+                    <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                    <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+        <ControlTemplate x:Key="RB" TargetType="{x:Type ButtonBase}">
+            <Border x:Name="border" CornerRadius="40" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="true" Margin="0,0,-29,0">
+                <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="Background" TargetName="border" Value="#000000"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="#000000"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="true">
+                    <Setter Property="Background" TargetName="border" Value="#000000"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="#000000"/>
+                </Trigger>
+                <Trigger Property="IsEnabled" Value="false">
+                    <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                    <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+        <ControlTemplate x:Key="RBB" TargetType="{x:Type ButtonBase}">
+            <Border x:Name="border" CornerRadius="40" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="true" Margin="0,0,-29,0">
+                <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="Background" TargetName="border" Value="#007CFF"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="#007CFF"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="true">
+                    <Setter Property="Background" TargetName="border" Value="#007CFF"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="#007CFF"/>
+                </Trigger>
+                <Trigger Property="IsEnabled" Value="false">
+                    <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                    <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+        <ControlTemplate x:Key="RO" TargetType="{x:Type ButtonBase}">
+            <Border x:Name="border" CornerRadius="40" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="true" Margin="0,0,-29,0">
+                <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="Background" TargetName="border" Value="#FF9700"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="#FF9700"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="true">
+                    <Setter Property="Background" TargetName="border" Value="#FF9700"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="#FF9700"/>
+                </Trigger>
+                <Trigger Property="IsEnabled" Value="false">
+                    <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                    <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                    <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+    </Window.Resources>
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="White"/>
+            <GradientStop Color="#FF80B6FF" Offset="1"/>
+            <GradientStop Color="#FFA205FF" Offset="0.508"/>
+        </LinearGradientBrush>
+    </Window.Background>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+
+
+
+
+
+
+
+
+
+
+
+        <StackPanel Margin="0,0,0,10" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="False" CanHorizontallyScroll="True" CanVerticallyScroll="True">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="/kids.jpg"/>
+            </StackPanel.Background>
+            <!-- Field Selection Label -->
+            <TextBlock Text="Start your journey from where you want" Margin="10" FontWeight="Bold" FontSize="24" HorizontalAlignment="Center" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="False" Foreground="White"/>
+            <Button x:Name="btnLogin2"                          
+                            BorderThickness="0"
+                            Content="LOG IN"
+                            Foreground="White"
+                            FontSize="12"
+                            FontFamily="Montserrat"
+                            Cursor="Hand" Click="btnLogin2_Click"                        
+                          
+                           >
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Background" Value="#462AD8"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#28AEED"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Width="150" Height="40"
+                                        CornerRadius="20"
+                                        Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <!-- Grid for Buttons -->
+            <Grid Margin="10" Height="1080" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="True" Width="1920" UseLayoutRounding="True">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <StackPanel Margin="20,0,0,-768" FlowDirection="RightToLeft" ScrollViewer.HorizontalScrollBarVisibility="Visible" CanHorizontallyScroll="True" CanVerticallyScroll="True" Width="600" HorizontalAlignment="Left">
+                    <!-- Left Buttons -->
+                    <Button x:Name="Lessons" Grid.Column="0" Content="Lesson" Template="{DynamicResource RYellow}"      Foreground="White" Margin="10" Height="300" Width="350" FlowDirection="RightToLeft" ScrollViewer.HorizontalScrollBarVisibility="Visible" FontSize="50" FontFamily="Arial" Click="Lessons_Click" >
+                        <Button.Background>
+                            <SolidColorBrush Color="Black" Opacity="0.5"/>
+                        </Button.Background>
+                        <Button.BorderBrush>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="White" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.BorderBrush>
+                    </Button>
+                    <Button Grid.Column="0" Content="Videos" Template="{DynamicResource RR}" Foreground="White" Margin="10" Height="300" Width="350" FlowDirection="RightToLeft" ScrollViewer.HorizontalScrollBarVisibility="Visible" FontSize="50" FontFamily="Arial" Click="Button_Click_2" >
+                        <Button.Background>
+                            <SolidColorBrush Color="Black" Opacity="0.5"/>
+                        </Button.Background>
+                    </Button>
+                    <Button Content="Suggestions" Template="{DynamicResource RG}" Foreground="White" Height="300" Width="350" FlowDirection="RightToLeft" ScrollViewer.HorizontalScrollBarVisibility="Visible" FontSize="50" FontFamily="Arial" Click="Button_Click_5"  >
+                        <Button.Background>
+                            <SolidColorBrush Color="Black" Opacity="0.5"/>
+                        </Button.Background>
+                    </Button>
+                </StackPanel>
+
+                <StackPanel Grid.Column="1" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="True" Grid.IsSharedSizeScope="True" UseLayoutRounding="True" CanHorizontallyScroll="True" CanVerticallyScroll="True" Width="600" HorizontalAlignment="Left" Margin="187,0,0,0" Grid.ColumnSpan="2">
+                    <!-- Middle Buttons -->
+                    <Button Grid.Column="1" Content="Games" Template="{DynamicResource RB}" Foreground="White" Margin="10" Height="300" Width="350" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="False" ScrollViewer.VerticalScrollBarVisibility="Visible" FontSize="50" FontFamily="Arial" Click="Button_Click" >
+                        <Button.Background>
+                            <SolidColorBrush Color="Black" Opacity="0.5"/>
+                        </Button.Background>
+                    </Button>
+                    <Button Grid.Column="1" Content="Website" Template="{DynamicResource RDB}" Foreground="White" Margin="10" Height="300" Width="350" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="False" ScrollViewer.VerticalScrollBarVisibility="Visible" FontSize="50" FontFamily="Arial" Click="Button_Click_6" >
+                        <Button.Background>
+                            <SolidColorBrush Color="Black" Opacity="0.485"/>
+                        </Button.Background>
+                    </Button>
+                    <Button Grid.Column="1" Content="About Us" Template="{DynamicResource RBB}" Margin="10,10,10,10" Height="300" Width="350" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="False" ScrollViewer.VerticalScrollBarVisibility="Visible" Foreground="White" BorderBrush="#FF787878" FontSize="50" FontFamily="Arial" Click="Button_Click_3"   >
+                        <Button.Background>
+                            <SolidColorBrush Color="Black" Opacity="0.5"/>
+                        </Button.Background>
+                    </Button>
+                </StackPanel>
+                <StackPanel Margin="408,0,272,-768" Grid.ColumnSpan="2" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="False" CanHorizontallyScroll="True" CanVerticallyScroll="True" Width="600">
+                    <!-- Right Buttons -->
+                    <Button Grid.Column="2" Content="Test" Template="{DynamicResource RP}" Foreground="White" Margin="10" Height="300" Width="350" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="False" FontSize="50" FontFamily="Arial" Click="Test_Click" >
+                        <Button.Background>
+                            <SolidColorBrush Color="Black" Opacity="0.5"/>
+                        </Button.Background>
+                    </Button>
+                    <Button Grid.Column="2" Content="Mix Chemicals" Template="{DynamicResource RPP}" Foreground="White" Margin="10" Height="300" Width="350" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="False" FontSize="50" FontFamily="Arial" FontWeight="Bold" Click="Button_Click_1" >
+                        <Button.Background>
+                            <SolidColorBrush Color="Black" Opacity="0.5"/>
+                        </Button.Background>
+                        <Button.Effect>
+                            <DropShadowEffect ShadowDepth="0" Direction="0" BlurRadius="500" Color="Black" Opacity="1"/>
+                        </Button.Effect>
+                    </Button>
+
+
+
+                    <Button Content="Contact Us" Template="{DynamicResource RO}" Foreground="White" Height="300" Width="350" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="False" FontSize="50" FontFamily="Arial" Click="Button_Click_4" >
+                        <Button.Background>
+                            <SolidColorBrush Color="Black" Opacity="0.5"/>
+                        </Button.Background>
+                    </Button>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+    </ScrollViewer>
+</Window>
