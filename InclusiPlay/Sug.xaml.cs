@@ -1,7 +1,8 @@
-﻿using System;
+﻿using Microsoft.Data.SqlClient;
+using MySql.Data.MySqlClient;
+using System;
 using System.Data.SqlClient;
 using System.Windows;
-using Microsoft.Data.SqlClient;
 
 namespace InclusiPlay
 {
@@ -12,36 +13,35 @@ namespace InclusiPlay
             InitializeComponent();
             Connection.setConnection();
         }
-
         private void SendMessage_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                using (SqlConnection connection = Connection.cnn)
+                Connection.setConnection();
+                Connection.cnn.Open();
+
+                string username = txtUsername.Text;
+                string message = txtMessage.Text;
+
+                string query = "INSERT INTO Messages (Username, Message) VALUES (@Username, @Message)";
+                using (MySqlCommand cmd = new MySqlCommand(query, Connection.cnn))
                 {
-                    connection.Open();
-
-                    string username = txtUsername.Text;
-                    string message = txtMessage.Text;
-
-                    // Assuming your table is named "Messages" with columns "Username" and "Message"
-                    string query = "INSERT INTO Messages (Username, Message) VALUES (@Username, @Message)";
-
-                    using (SqlCommand command = new SqlCommand(query, connection))
-                    {
-                        command.Parameters.AddWithValue("@Username", username);
-                        command.Parameters.AddWithValue("@Message", message);
-
-                        command.ExecuteNonQuery();
-                    }
-
-                    MessageBox.Show("Message sent successfully!");
+                    cmd.Parameters.AddWithValue("@Username", username);
+                    cmd.Parameters.AddWithValue("@Message", message);
+                    cmd.ExecuteNonQuery();
                 }
+
+                MessageBox.Show("Message sent successfully!");
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"An error occurred: {ex.Message}");
+                MessageBox.Show($"Error: {ex.Message}");
+            }
+            finally
+            {
+                Connection.cnn.Close();
             }
         }
+
     }
 }

@@ -1,25 +1,19 @@
-﻿<Window x:Class="InclusiPlay.DataBase.Insert"
+﻿<!-- Insert.xaml -->
+<Window x:Class="InclusiPlay.DataBase.Insert"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:InclusiPlay.DataBase"
-        mc:Ignorable="d"
-        Title="Insert Window" Height="300" Width="400">
+        Title="Insert User" Height="350" Width="400">
     <Grid>
-        <StackPanel Margin="10">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock Text="Name:"/>
-            <TextBox x:Name="txtName" Margin="0,0,0,10"/>
-
+            <TextBox x:Name="txtName" Width="200" Margin="0,0,0,10"/>
             <TextBlock Text="Password:"/>
-            <PasswordBox x:Name="txtPassword" Margin="0,0,0,10"/>
-
+            <PasswordBox x:Name="txtPassword" Width="200" Margin="0,0,0,10"/>
             <TextBlock Text="Gender:"/>
-            <ComboBox x:Name="cmbGender" Margin="0,0,0,10">
-                <ComboBoxItem Content="Male"/>
-                <ComboBoxItem Content="Female"/>
+            <ComboBox x:Name="cmbGender" Width="200" Margin="0,0,0,10">
+                <ComboBoxItem>Male</ComboBoxItem>
+                <ComboBoxItem>Female</ComboBoxItem>
             </ComboBox>
-
             <Button Content="Insert" Click="InsertButton_Click"/>
         </StackPanel>
     </Grid>

@@ -1,29 +1,15 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using MySql.Data.MySqlClient;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace InclusiPlay
 {
-    /// <summary>
-    /// Interaction logic for loogin.xaml
-    /// </summary>
     public partial class loogin : Window
     {
         public loogin()
         {
             InitializeComponent();
-            Connection.setConnection();
+            Connection.setConnection(); // تأكد إن Connection.cnn2 من نوع MySqlConnection
         }
 
         private void pre_Click2(object sender, RoutedEventArgs e)
@@ -32,39 +18,42 @@ namespace InclusiPlay
             main.Visibility = Visibility.Visible;
             this.Close();
         }
-        private void btnLogin_Click_1(object sender, RoutedEventArgs e)
 
+        private void btnLogin_Click_1(object sender, RoutedEventArgs e)
         {
             string enteredUsername = txtUser.Text;
             string enteredPassword = txtPass.Password;
 
-            // Query the database to check if the entered credentials are valid
-            string query = $"SELECT COUNT(*) FROM Manger WHERE UserName = @Username AND Password = @Password";
+            string query = "SELECT COUNT(*) FROM Managers WHERE Username = @Username AND Password = @Password";
 
-            using (SqlCommand command = new SqlCommand(query, Connection.cnn2))
+            try
             {
-                command.Parameters.AddWithValue("@Username", enteredUsername);
-                command.Parameters.AddWithValue("@Password", enteredPassword);
-
-                Connection.cnn2.Open();
-                int userCount = (int)command.ExecuteScalar();
-                Connection.cnn2.Close();
-
-                if (userCount > 0)
+                using (MySqlCommand command = new MySqlCommand(query, Connection.cnn2))
                 {
-                    // Valid username and password
-                    this.Visibility = Visibility.Hidden;
-                    Manger n = new Manger();
-                    n.ShowDialog();
-                    Close();
-                }
-                else
-                {
-                    // Invalid username or password
-                    MessageBox.Show("Wrong Username or Password");
+                    command.Parameters.AddWithValue("@Username", enteredUsername);
+                    command.Parameters.AddWithValue("@Password", enteredPassword);
+
+                    Connection.cnn2.Open();
+                    int userCount = Convert.ToInt32(command.ExecuteScalar());
+                    Connection.cnn2.Close();
+
+                    if (userCount > 0)
+                    {
+                        this.Visibility = Visibility.Hidden;
+                        Manger n = new Manger();
+                        n.ShowDialog();
+                        Close();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Wrong Username or Password");
+                    }
                 }
             }
-
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error connecting to database: {ex.Message}");
+            }
         }
 
         private void btnClose_Click_1(object sender, RoutedEventArgs e)
@@ -74,10 +63,7 @@ namespace InclusiPlay
 
         private void btnMinimize_Click_1(object sender, RoutedEventArgs e)
         {
-            this.WindowState = WindowState.Minimized; // Minimize the window.
-
+            this.WindowState = WindowState.Minimized;
         }
-
-       
     }
 }

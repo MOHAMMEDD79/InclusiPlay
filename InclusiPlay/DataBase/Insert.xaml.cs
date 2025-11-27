@@ -1,31 +1,16 @@
-﻿using Microsoft.Data.SqlClient;
+﻿// Insert.xaml.cs
+using MySql.Data.MySqlClient;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
-using System.Data.SqlClient;
-using System.Data;
-
 
 namespace InclusiPlay.DataBase
 {
-    /// <summary>
-    /// Interaction logic for Insert.xaml
-    /// </summary>
     public partial class Insert : Window
     {
         private DataGrid dg;
-        private Manger manger;
-       
+
         public Insert(DataGrid dg)
         {
             InitializeComponent();
@@ -36,18 +21,17 @@ namespace InclusiPlay.DataBase
         {
             try
             {
-             
+                Connection.setConnection();
+
                 string name = txtName.Text;
                 string pass = txtPassword.Password;
                 string gender = cmbGender.Text.Equals("Male") ? "Male" : "Female";
+
                 string query = "INSERT INTO MyTabel (Name, Password, Gender) " +
                                "VALUES (@Name, @Password, @Gender)";
 
-
-                using (SqlCommand cmd = new SqlCommand(query, Connection.cnn))
+                using (MySqlCommand cmd = new MySqlCommand(query, Connection.cnn))
                 {
-                    cmd.CommandType = CommandType.Text;
-                
                     cmd.Parameters.AddWithValue("@Name", name);
                     cmd.Parameters.AddWithValue("@Password", pass);
                     cmd.Parameters.AddWithValue("@Gender", gender);
@@ -55,13 +39,11 @@ namespace InclusiPlay.DataBase
                     Connection.cnn.Open();
                     cmd.ExecuteNonQuery();
                     Connection.cnn.Close();
-
-                    MessageBox.Show("Successfully Added");
-                    ClearFields();
-
-                    manger = new Manger();
-                    manger.data_grid();
                 }
+
+                MessageBox.Show("Successfully Added");
+                ClearFields();
+                LoadData();
             }
             catch (Exception ex)
             {
@@ -72,9 +54,28 @@ namespace InclusiPlay.DataBase
         private void ClearFields()
         {
             txtName.Clear();
-           
             txtPassword.Clear();
             cmbGender.SelectedIndex = -1;
+        }
+
+        private void LoadData()
+        {
+            try
+            {
+                Connection.setConnection();
+                string query = "SELECT * FROM MyTabel";
+
+                using (MySqlCommand cmd = new MySqlCommand(query, Connection.cnn))
+                {
+                    Connection.cnn.Open();
+                    MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    adapter.Fill(dt);
+                    dg.ItemsSource = dt.DefaultView;
+                    Connection.cnn.Close();
+                }
+            }
+            catch { }
         }
     }
 }

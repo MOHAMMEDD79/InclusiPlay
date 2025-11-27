@@ -1,22 +1,19 @@
-﻿using Microsoft.Data.SqlClient;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MySql.Data.MySqlClient;
 
 namespace InclusiPlay
 {
-
-    public class Connection
+    public static class Connection
     {
-        static public SqlConnection cnn,cnn2;
-        static public void setConnection()
-        {
-            string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Test;Integrated Security=True;TrustServerCertificate=True;";
+        public static MySqlConnection cnn;
+        public static MySqlConnection cnn2;
 
-            cnn = new SqlConnection(connectionString);
-            cnn2= new SqlConnection(connectionString);
+        public static void setConnection()
+        {
+            // غير User و Password حسب إعدادات XAMPP/MySQL عندك
+            string connectionString = "Server=localhost;Database=InclusiPlayDB;Uid=root;Pwd=;";
+
+            cnn = new MySqlConnection(connectionString);
+            cnn2 = new MySqlConnection(connectionString);
         }
     }
 }
