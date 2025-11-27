@@ -5,10 +5,12 @@ A local interactive project designed to support inclusive play environments.
 ---
 
 ## 🧩 Database Setup (SQL Server)
-First : Go to Connection.cs and edit the variable connection String that match with your PC
-### 1️⃣ Create the Database and Tables
-Seconde: 
-Copy the following SQL script and execute it in **SQL Server Management Studio (SSMS)**:
+
+### 1️⃣ Configure Connection
+First, open `Connection.cs` and edit the connection string to match your PC settings.
+
+### 2️⃣ Create the Database and Tables
+Next, copy the following SQL script and execute it in **SQL Server Management Studio (SSMS)**:
 
 ```sql
 -- إنشاء قاعدة البيانات (لو مش موجودة)
